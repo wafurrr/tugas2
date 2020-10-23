@@ -14,3 +14,27 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('jam.home');
+});
+
+Route::get('/login', function () {
+    return view('jam.login');
+});
+
+Route::get('/brands', function () {
+    return view('jam.brands');
+});
+
+Route::get('/register', function () {
+    return view('jam.register');
+});
+
+Route::get('/men', function () {
+    return view('jam.men');
+});
+
+Route::get('/checkout', function () {
+    return view('jam.checkout');
+});
