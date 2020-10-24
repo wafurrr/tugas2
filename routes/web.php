@@ -38,3 +38,31 @@ Route::get('/men', function () {
 Route::get('/checkout', function () {
     return view('jam.checkout');
 });
+
+Route::get('/base', function () {
+    return view('admin.base');
+});
+
+Route::get('beranda', function () {
+    return view('beranda');
+});
+
+Route::get('produk', function () {
+    return view('produk');
+});
+
+Route::get('kategori', function () {
+    return view('kategori');
+});
+
+Route::get('promo', function () {
+    return view('promo');
+});
+
+Route::get('login', function () {
+    return view('login');
+});
+
+Route::get('register', function () {
+    return view('register');
+});
