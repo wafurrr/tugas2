@@ -40,29 +40,29 @@ Route::get('/checkout', function () {
 });
 
 Route::get('/base', function () {
-    return view('admin.base');
+    return view('admin2.base');
 });
 
-Route::get('beranda', function () {
-    return view('beranda');
+Route::get('/beranda', function () {
+    return view('admin2.beranda');
 });
 
-Route::get('produk', function () {
-    return view('produk');
+Route::get('/produk', function () {
+    return view('admin2.produk');
 });
 
-Route::get('kategori', function () {
-    return view('kategori');
+Route::get('/kategori', function () {
+    return view('admin2.kategori');
 });
 
-Route::get('promo', function () {
-    return view('promo');
+Route::get('/promo', function () {
+    return view('admin2.promo');
 });
 
-Route::get('login', function () {
-    return view('login');
+Route::get('/login', function () {
+    return view('admin2.login');
 });
 
-Route::get('register', function () {
-    return view('register');
+Route::get('/register', function () {
+    return view('admin2.register');
 });
